@@ -1,0 +1,45 @@
+.main_div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgb(29, 31, 51);
+  text-align: center;
+}
+
+.center_div {
+  width: 25%;
+  height: 40vh;
+  border-radius: 15px;
+  background-color: rgb(39, 31, 54);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 90px;
+  color: aliceblue;
+  width: 100%;
+}
+
+button {
+  min-height: 40px;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 0 15px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(73, 77, 124);
+}
